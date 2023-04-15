@@ -1,11 +1,11 @@
 .galleryContainer {
-   /* background-color: rgb(36, 26, 20); */
-   background-image: radial-gradient(circle, rgb(45, 33, 25), rgb(31, 23, 16));
+   background-color: rgb(15, 15, 15);
+   /* background-image: radial-gradient(circle, rgb(45, 33, 25), rgb(31, 23, 16));
    background-image: radial-gradient(
       circle,
       rgb(16, 16, 16),
       rgb(35, 35, 35)
-   );
+   ); */
    height: 100vh;
    display: grid;
    grid-template-columns: 20% 60% 20%;
@@ -18,19 +18,11 @@
 .imageContainer {
    grid-column: 2;
    grid-row: 2;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100%;
-   width: 100%;
+   position: relative;
 }
 
 .mainImage {
-   border: 1px solid rgb(234, 234, 234);
-   max-height: 100%;
-   max-width: 100%;
-   height: auto;
-   width: auto;
+   object-fit: contain;
 }
 /* ----------------------------------------test */
 

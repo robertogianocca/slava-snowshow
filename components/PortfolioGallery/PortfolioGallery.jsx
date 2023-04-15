@@ -63,9 +63,8 @@ function PortfolioGallery(props) {
             <Image
                className={classes.mainImage}
                src={props.images[activeSlide].path}
-               width={2000}
-               height={1000}
-               quality={100}
+               fill
+               quality={70}
                alt={props.images[activeSlide].paintTitle}
             />
          </div>
