@@ -1,20 +1,11 @@
 .galleryContainer {
    background-color: rgb(15, 15, 15);
-   /* background-image: radial-gradient(circle, rgb(45, 33, 25), rgb(31, 23, 16));
-   background-image: radial-gradient(
-      circle,
-      rgb(16, 16, 16),
-      rgb(35, 35, 35)
-   ); */
    height: 100vh;
    display: grid;
    grid-template-columns: 20% 60% 20%;
    grid-template-rows: 9% 80% 11%;
 }
 
-
-
-/* ----------------------------------------test */
 .imageContainer {
    grid-column: 2;
    grid-row: 2;
@@ -24,7 +15,6 @@
 .mainImage {
    object-fit: contain;
 }
-/* ----------------------------------------test */
 
 .portfolioTitle {
    font-style: italic;
@@ -41,36 +31,20 @@
    grid-column: 2;
    grid-row: 3;
    text-align: center;
-   color: var(--black);
+   color: rgb(106, 106, 106);
 }
 
 .caption h2 {
    position: relative;
    top: 25%;
+   font-family: Arial, Helvetica, sans-serif;
    font-size: 18px !important;
-   font-weight: normal;
+   font-weight: bold;
    letter-spacing: 0.3px;
    display: inline;
 }
 
 /* -------------------- ARROWS and BUTTONS -------------------- */
-
-.backButtonContainer {
-   /* background-color: rgba(227, 206, 181, 0.123); */
-   background-color:rgb(156, 156, 156);
-   grid-column: 1;
-   grid-row: 1;
-   margin: auto;
-   color:var(--black);
-   padding: 5px 10px 5px 10px;
-   border-radius: 10px;
-}
-
-.backArrow {
-   color: var(--black);
-   display: inline-block;
-   margin-right: 15px;
-}
 
 .previousButton {
    grid-column: 1;
@@ -87,16 +61,12 @@
 .nextArrow,
 .previousArrow {
    font-size: 80px;
-   color:var(--black);
+   color: rgb(40, 40, 40);
 }
 
-.nextButton:hover,
-.previousButton:hover {
-   color: var(--black);
-}
 .nextArrow:hover,
 .previousArrow:hover {
-   color: var(--black);
+   color: rgb(83, 83, 83);
 }
 
 /* ---------------------------------------------------------------------

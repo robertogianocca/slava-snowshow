@@ -3,7 +3,6 @@ import portfolioList from "../portfolioList";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { RiArrowGoBackFill } from "react-icons/ri";
 import { MdOutlineArrowBackIos } from "react-icons/md";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 

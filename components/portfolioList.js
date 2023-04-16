@@ -325,6 +325,10 @@ let portfolioList = [
             path: "/images/80.webp",
          },
          {
+            key: 81,
+            path: "/images/81.webp",
+         },
+         {
             key: 82,
             path: "/images/82.webp",
          },
@@ -335,18 +339,6 @@ let portfolioList = [
          {
             key: 84,
             path: "/images/84.webp",
-         },
-         {
-            key: 85,
-            path: "/images/85.webp",
-         },
-         {
-            key: 86,
-            path: "/images/86.webp",
-         },
-         {
-            key: 87,
-            path: "/images/87.webp",
          },
       ],
    },
